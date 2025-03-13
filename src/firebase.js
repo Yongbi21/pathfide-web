@@ -22,12 +22,12 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCFSTDqn08ZIJ4GxD5HM4FNYpuWKJ2wQ7U",
-  authDomain: "mindpath-5f93b.firebaseapp.com",
-  projectId: "mindpath-5f93b", 
-  storageBucket: "mindpath-5f93b.appspot.com",
+  apiKey: "AIzaSyD5JIsT8jpsLB8SuwCoH9b8kIhaWCiEN9g",
+  authDomain: "pathfide.firebaseapp.com",
+  projectId: "pathfide", 
+  storageBucket: "pathfide.appspot.com",
   messagingSenderId: "908851760661",
-  appId: "1:908851760661:android:ee744e33fc6c0c84da481c",
+  appId: "1:914346132615:android:8cbf3aadbf113e69d22422",
 };
 
 // Initialize Firebase
