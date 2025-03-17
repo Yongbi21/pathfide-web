@@ -55,8 +55,7 @@ class AppointmentDataService {
     // Fetch a specific appointment by ID
     getAppointment = async (id) => {
         const appointmentDoc = doc(db, "interviewAppointments", id);
-        const docSnap = await getDoc(appointmentDoc);
-
+        const docSnap = await getDoc(appointmentDoc, { source: "server" });
         // Check if the document exists
         if (docSnap.exists()) {
             return docSnap;
